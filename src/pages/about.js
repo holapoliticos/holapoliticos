@@ -21,14 +21,14 @@ const Page = (routerLocation, isAnimation) => {
     setLoad(true);
   }, []);
 
-  return ( <>
-      <div
+  return (
+    <div
         initial={{ scale: isLoad ? 1 : 0.9 }}
         animate={{ scale: isAnimation ? 0.9 : isLoad ? 1 : 0.9 }}
         exit={{ scale: 0.9 }}
         transition={{ duration: 0.3 }}
       >
-        <Link style={{textDecoration: 'none'}} to="/" animate="prev">
+        <Link style={{textDecoration: 'none'}} to="/2" animate="prev">
           <div>
             <Body style={{ background: "#1bbc9b", zIndex: 111 }}>
               <div style={{ fontSize: 14, paddingLeft: '2em', paddingRight: '2em', textAlign: 'center'  }}>
@@ -42,7 +42,6 @@ const Page = (routerLocation, isAnimation) => {
           </div>
         </Link>
       </div>
-    </>
   );
 };
 

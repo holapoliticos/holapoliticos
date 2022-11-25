@@ -1,8 +1,9 @@
-import "./styles.css"
-import React from "react"
-import { Switch, Route } from "react-router-dom-animation"
-import Hello from "./pages/home.js"
-import Politicians from "./pages/about.js"
+import "./styles.css";
+import React from "react";
+import { Switch, Route } from "react-router-dom-animation";
+import Home from "./pages/home.js";
+import About from "./pages/about.js";
+import News from "./pages/news.js";
 
 const animationProps = {
   style: {
@@ -20,16 +21,17 @@ const animationProps = {
     prev: { y: "-100vh" },
     next: { y: "100vh" }
   },
-  transition: { duration: 0.6 }
-}
+  transition: { duration: 1 }
+};
 
 const App = () => {
   return (
     <Switch>
-      <Route {...animationProps} path="/" exact component={Hello} />
-      <Route {...animationProps} path="/2" component={Politicians} />
+      <Route {...animationProps} path="/2" exact component={Home} />
+      <Route {...animationProps} path="/" component={About} />
+      {/* <Route {...animationProps} path="/news" component={News} /> */}
     </Switch>
-  )
-}
+  );
+};
 
-export default App
+export default App;
