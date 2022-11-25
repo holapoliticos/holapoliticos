@@ -35,6 +35,7 @@ const Page = (routerLocation, isAnimation) => {
         <Link style={{ textDecoration: "none" }} to="/" animate="next">
           <div
             style={{
+              color: "#fff",
               height: "99vh",
               width: "99vw",
               display: "flex",
