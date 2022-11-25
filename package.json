@@ -1,5 +1,6 @@
 {
-  "name": "react-router-dom-animation-simple-handle-start-and-horizontal-scale-animation",
+  "homepage": "https://holapoliticos.github.io/holapoliticos",
+  "name": "holapoliticos",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run deploy",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
