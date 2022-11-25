@@ -22,26 +22,41 @@ const Page = (routerLocation, isAnimation) => {
   }, []);
 
   return (
-    <div
-        initial={{ scale: isLoad ? 1 : 0.9 }}
-        animate={{ scale: isAnimation ? 0.9 : isLoad ? 1 : 0.9 }}
-        exit={{ scale: 0.9 }}
-        transition={{ duration: 0.3 }}
-      >
-        <Link style={{textDecoration: 'none'}} to="/2" animate="prev">
-          <div>
-            <Body style={{ background: "#1bbc9b", zIndex: 111 }}>
-              <div style={{ fontSize: 14, paddingLeft: '2em', paddingRight: '2em', textAlign: 'center'  }}>
-                <h2>¿Alguien recuerda el cambio climático?</h2>
-                <br />
-                <p>...hipócritas.</p>
-                <br />
-                <p>Noviembre 2022</p>
+    <Body
+      style={{ background: "#1bbc9b", zIndex: 111 }}
+      initial={{ scale: isLoad ? 1 : 1 }}
+      animate={{ scale: isAnimation ? 1 : isLoad ? 1 : 1 }}
+      exit={{ scale: 1 }}
+      transition={{ duration: 0.3 }}
+    >
+      <div>
+        <div>
+          <Link style={{ textDecoration: "none" }} to="/2" animate="prev">
+            <div
+              style={{
+                height: "99vh",
+                width: "99vw",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: 14,
+                paddingLeft: "2em",
+                paddingRight: "2em",
+                textAlign: "center",
+              }}
+            >
+              <div>
+              <h2>¿Alguien recuerda el cambio climático?</h2>
+              <br />
+              <p>...hipócritas.</p>
+              <br />
+              <p>Noviembre 2022</p>
               </div>
-            </Body>
-          </div>
-        </Link>
+            </div>
+          </Link>
+        </div>
       </div>
+    </Body>
   );
 };
 

@@ -23,26 +23,42 @@ const Page = (routerLocation, isAnimation) => {
 
   const handleScroll = () => {};
 
-  return (<div
-    initial={{ scale: isLoad ? 1 : 0.9 }}
-    animate={{ scale: isAnimation ? 0.9 : isLoad ? 1 : 0.9 }}
-    exit={{ scale: 0.9 }}
-    transition={{ duration: 0.3 }}
-  >
-    <Link style={{textDecoration: 'none'}} to="/" animate="next">
+  return (
+    <Body
+      style={{ background: "#1bbc9b", zIndex: 111 }}
+      initial={{ scale: isLoad ? 1 : 1 }}
+      animate={{ scale: isAnimation ? 1 : isLoad ? 1 : 1 }}
+      exit={{ scale: 1 }}
+      transition={{ duration: 0.3 }}
+    >
       <div>
-        <Body style={{ background: "#1bbc9b", zIndex: 111 }}>
-          <div style={{ fontSize: 14, paddingLeft: '2em', paddingRight: '2em', textAlign: 'center'  }}>
-            <h1>Hola Políticos</h1>
-            <p>Queremos construir una sociedad mejor.</p>
-            <p>Necesitamos tener esperanza en el futuro.</p>
-            <p>Pero ustedes no están a la altura.</p>
-            <p style={{ lineHeight: 2}}>Con ánimo constructivo este proyecto pretende interpelarles.</p>
+        <Link style={{ textDecoration: "none" }} to="/" animate="next">
+          <div
+            style={{
+              height: "99vh",
+              width: "99vw",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: 14,
+              paddingLeft: "2em",
+              paddingRight: "2em",
+              textAlign: "center",
+            }}
+          >
+            <div>
+              <h1>Hola Políticos</h1>
+              <p>Queremos construir una sociedad mejor.</p>
+              <p>Necesitamos tener esperanza en el futuro.</p>
+              <p>Pero ustedes no están a la altura.</p>
+              <p style={{ lineHeight: 2 }}>
+                Con ánimo constructivo este proyecto pretende interpelarles.
+              </p>
+            </div>
           </div>
-        </Body>
+        </Link>
       </div>
-    </Link>
-  </div>
+    </Body>
   );
 };
 
