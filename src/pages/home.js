@@ -37,7 +37,7 @@ const Page = (routerLocation, isAnimation) => {
             style={{
               color: "#fff",
               height: "99vh",
-              width: "99vw",
+              width: "95vw",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
