@@ -1,5 +1,5 @@
 {
-  "homepage": "https://holapoliticos.github.io",
+  "homepage": "https://holapoliticos.github.io/holapoliticos",
   "name": "holapoliticos",
   "version": "1.0.0",
   "description": "",
@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "deploy-with-yarn": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": [
