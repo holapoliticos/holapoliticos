@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAAA,KACE,QAAW,CACX,SACF,CAEA,EACE,UAAW,CACX,cACF,CAEA,QACE,UACF","file":"main.f7c47d0f.chunk.css","sourcesContent":["body {\r\n  margin: 0px;\r\n  padding: 0px;\r\n}\r\n\r\na {\r\n  color: #fff;\r\n  font-size: 20px;\r\n}\r\n\r\na:hover {\r\n  color: #ddd;\r\n}\r\n"]}
