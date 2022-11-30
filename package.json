@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
+  "private": true,
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -23,8 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy-with-yarn": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy1of2": "npm run build",
+    "deploy2of2": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
