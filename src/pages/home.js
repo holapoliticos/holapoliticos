@@ -48,13 +48,14 @@ const Page = (routerLocation, isAnimation) => {
             }}
           >
             <div>
-              <p>www.holapoliticos.com</p>
               <p>Queremos construir una sociedad mejor.</p>
               <p>Necesitamos tener esperanza en el futuro.</p>
               <p>Pero ustedes no están a la altura.</p>
               <p style={{ lineHeight: 2 }}>
                 Con ánimo constructivo este proyecto pretende interpelarles.
               </p>
+              <br />
+              <p>holapoliticos.com</p>
             </div>
           </div>
         </Link>
