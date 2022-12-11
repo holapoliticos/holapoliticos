@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/holapoliticos/static/css/main.f7c47d0f.chunk.css",
-    "main.js": "/holapoliticos/static/js/main.810973ae.chunk.js",
-    "main.js.map": "/holapoliticos/static/js/main.810973ae.chunk.js.map",
+    "main.js": "/holapoliticos/static/js/main.1adb1b36.chunk.js",
+    "main.js.map": "/holapoliticos/static/js/main.1adb1b36.chunk.js.map",
     "runtime-main.js": "/holapoliticos/static/js/runtime-main.c90b1f90.js",
     "runtime-main.js.map": "/holapoliticos/static/js/runtime-main.c90b1f90.js.map",
     "static/js/2.e42468bc.chunk.js": "/holapoliticos/static/js/2.e42468bc.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c90b1f90.js",
     "static/js/2.e42468bc.chunk.js",
     "static/css/main.f7c47d0f.chunk.css",
-    "static/js/main.810973ae.chunk.js"
+    "static/js/main.1adb1b36.chunk.js"
   ]
 }
