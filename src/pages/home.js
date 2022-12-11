@@ -48,7 +48,7 @@ const Page = (routerLocation, isAnimation) => {
             }}
           >
             <div>
-              <h1>Hola Políticos</h1>
+              <p>www.holapoliticos.com</p>
               <p>Queremos construir una sociedad mejor.</p>
               <p>Necesitamos tener esperanza en el futuro.</p>
               <p>Pero ustedes no están a la altura.</p>

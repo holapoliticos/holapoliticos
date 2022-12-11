@@ -47,11 +47,13 @@ const Page = (routerLocation, isAnimation) => {
               }}
             >
               <div>
-              <h2>¿Alguien recuerda el cambio climático?</h2>
+              <h1>Hola Políticos</h1>
               <br />
-              <p>...hipócritas.</p>
+              <h2>- declaraciones grandilocuentes</h2>
+              <h2>+ solucionar problemas</h2>
               <br />
-              <p>Noviembre 2022</p>
+              <br />
+              <p>Diciembre 2022</p>
               </div>
             </div>
           </Link>
