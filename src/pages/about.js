@@ -49,14 +49,14 @@ const Page = (routerLocation, isAnimation) => {
               <div>
                 <h1>Hola Políticos</h1>
                 <br />
-                <h2>Lobbies</h2>
+                {/* <h2>Lobbies</h2>
                 <h2>Qatar / Marruecos</h2>
-                <h2>Coste de la energía</h2>
-                <h2>Corrupción</h2>
-                <h2>Inflación</h2>
+                <h2>Coste de la energía</h2> */}
+                <h2>Escuchen a Kissinger!</h2>
+                {/* <h2>Los ciudadanos ya estamos pagando las facturas.</h2> */}
                 <br />
                 <br />
-                <h2>Pueden comportarse por favor?</h2>
+                {/* <h2>Pueden comportarse por favor?</h2> */}
                 <br />
                 <p>Enero 2023</p>
               </div>
