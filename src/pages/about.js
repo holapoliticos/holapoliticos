@@ -52,8 +52,8 @@ const Page = (routerLocation, isAnimation) => {
                 {/* <h2>Lobbies</h2>
                 <h2>Qatar / Marruecos</h2>
                 <h2>Coste de la energía</h2> */}
-                <h2>Las guerras no eclipsan la corrupción.</h2>
-                <h2>Estamos hartos de no poder pagar facturas.</h2>
+                <h3>La guerra no eclipsa vuestra mala gestión.</h3>
+                {/* <h3>No gestionan bien nuestro dinero.</h3> */}
                 {/* <h2>Los ciudadanos ya estamos pagando las facturas.</h2> */}
                 <br />
                 <br />
