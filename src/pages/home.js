@@ -48,9 +48,8 @@ const Page = (routerLocation, isAnimation) => {
             }}
           >
             <div>
-              <p>Queremos construir una sociedad mejor.</p>
-              <p>Necesitamos tener esperanza en el futuro.</p>
-              <p>Pero ustedes no están a la altura.</p>
+              <p>Queremos tener esperanza en el futuro,</p>
+              <p>pero ustedes se preocupan por sus carreras.</p>
               <p>Esta es una iniciativa sin fines de lucro.</p>
               <br />
               <p>holapoliticos.com</p>

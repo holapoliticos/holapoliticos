@@ -49,17 +49,14 @@ const Page = (routerLocation, isAnimation) => {
               <div>
                 <h1>Hola Políticos</h1>
                 <br />
-                {/* <h2>Lobbies</h2>
-                <h2>Qatar / Marruecos</h2>
-                <h2>Coste de la energía</h2> */}
-                <h3>La guerra no eclipsa la corrupción.</h3>
-                {/* <h3>No gestionan bien nuestro dinero.</h3> */}
-                {/* <h2>Los ciudadanos ya estamos pagando las facturas.</h2> */}
+                <h2>“La guerra es la paz,</h2>
+                <h2>la libertad es la esclavitud,</h2>
+                <h2>la ignorancia es la fuerza.”</h2>
+                <br />
+                <p>por Stoltenberg, Blinken y Borrell</p>
                 <br />
                 <br />
-                {/* <h2>Pueden comportarse por favor?</h2> */}
-                <br />
-                <p>Enero 2023</p>
+                <p>Marzo 2023</p>
               </div>
             </div>
           </Link>
