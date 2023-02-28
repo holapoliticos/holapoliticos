@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/holapoliticos/static/css/main.f7c47d0f.chunk.css",
-    "main.js": "/holapoliticos/static/js/main.7533180e.chunk.js",
-    "main.js.map": "/holapoliticos/static/js/main.7533180e.chunk.js.map",
-    "runtime-main.js": "/holapoliticos/static/js/runtime-main.c90b1f90.js",
-    "runtime-main.js.map": "/holapoliticos/static/js/runtime-main.c90b1f90.js.map",
-    "static/js/2.e42468bc.chunk.js": "/holapoliticos/static/js/2.e42468bc.chunk.js",
-    "static/js/2.e42468bc.chunk.js.map": "/holapoliticos/static/js/2.e42468bc.chunk.js.map",
+    "main.css": "/holapoliticos/static/css/main.afd14df2.css",
+    "main.js": "/holapoliticos/static/js/main.0dac34c5.js",
     "index.html": "/holapoliticos/index.html",
-    "static/css/main.f7c47d0f.chunk.css.map": "/holapoliticos/static/css/main.f7c47d0f.chunk.css.map",
-    "static/js/2.e42468bc.chunk.js.LICENSE.txt": "/holapoliticos/static/js/2.e42468bc.chunk.js.LICENSE.txt"
+    "main.afd14df2.css.map": "/holapoliticos/static/css/main.afd14df2.css.map",
+    "main.0dac34c5.js.map": "/holapoliticos/static/js/main.0dac34c5.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c90b1f90.js",
-    "static/js/2.e42468bc.chunk.js",
-    "static/css/main.f7c47d0f.chunk.css",
-    "static/js/main.7533180e.chunk.js"
+    "static/css/main.afd14df2.css",
+    "static/js/main.0dac34c5.js"
   ]
 }
