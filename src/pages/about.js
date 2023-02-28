@@ -49,11 +49,13 @@ const Page = (routerLocation, isAnimation) => {
               <div>
                 <h1>Hola Políticos</h1>
                 <br />
+                <br />
                 <h2>“La guerra es la paz,</h2>
                 <h2>la libertad es la esclavitud,</h2>
                 <h2>la ignorancia es la fuerza.”</h2>
                 <br />
-                <p>por Stoltenberg, Blinken y Borrell</p>
+                <br />
+                {/* <p>por Stoltenberg, Blinken y Borrell</p> */}
                 <br />
                 <br />
                 <p>Marzo 2023</p>
