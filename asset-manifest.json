@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/holapoliticos/static/css/main.afd14df2.css",
-    "main.js": "/holapoliticos/static/js/main.0dac34c5.js",
+    "main.js": "/holapoliticos/static/js/main.e92d07fe.js",
     "index.html": "/holapoliticos/index.html",
     "main.afd14df2.css.map": "/holapoliticos/static/css/main.afd14df2.css.map",
-    "main.0dac34c5.js.map": "/holapoliticos/static/js/main.0dac34c5.js.map"
+    "main.e92d07fe.js.map": "/holapoliticos/static/js/main.e92d07fe.js.map"
   },
   "entrypoints": [
     "static/css/main.afd14df2.css",
-    "static/js/main.0dac34c5.js"
+    "static/js/main.e92d07fe.js"
   ]
 }
