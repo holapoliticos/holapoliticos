@@ -50,12 +50,10 @@ const Page = (routerLocation, isAnimation) => {
                 <h1>Hola Políticos</h1>
                 <br />
                 <br />
-                <h2>“La guerra es la paz,</h2>
-                <h2>la libertad es la esclavitud,</h2>
-                <h2>la ignorancia es la fuerza.”</h2>
+                <h2>"Libertad, democracia, derechos..."</h2>
                 <br />
-                <br />
-                {/* <p>por Stoltenberg, Blinken y Borrell</p> */}
+                <h2>Bonitas palabras, pero nosotros </h2>
+                <h2>somos cada día más pobres.</h2>
                 <br />
                 <br />
                 <p>Marzo 2023</p>
