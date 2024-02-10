@@ -50,11 +50,11 @@ const Page = (routerLocation, isAnimation) => {
                 <h1>Hola Políticos</h1>
                 <br />
                 <br />
-                <h2>¿No será mejor invertir en sanidad y</h2>
-                <h2>educación en vez de en guerras?</h2>
+                <h2>Infraestructuras</h2>
+                <h2>Innovación</h2>
+                <h2>Energía Barata</h2>
                 <br />
                 <br />
-                <p>Mayo 2023</p>
               </div>
             </div>
           </Link>
