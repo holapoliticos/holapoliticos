@@ -55,7 +55,6 @@ const Page = (routerLocation, isAnimation) => {
                 <h3>nuestra privacidad,</h3>
                 <h3>no nos gustan.</h3>
                 <br />
-                <br />
               </div>
             </div>
           </Link>
