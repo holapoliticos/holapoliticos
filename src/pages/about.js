@@ -53,7 +53,7 @@ const Page = (routerLocation, isAnimation) => {
                 <h3>Esto que hacéis de crear inseguridad</h3>
                 <h3>con el fin de hacernos renunciar a</h3>
                 <h3>nuestra privacidad,</h3>
-                <h3>no nos gustan.</h3>
+                <h3>no nos gusta.</h3>
                 <br />
               </div>
             </div>
