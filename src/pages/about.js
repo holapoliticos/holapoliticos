@@ -50,9 +50,9 @@ const Page = (routerLocation, isAnimation) => {
                 <h1>Hola Políticos</h1>
                 <br />
                 <br />
-                <h3>La política de crear inseguridad</h3>
-                <h3>con el fin de hacernos renunciar a</h3>
-                <h3>la privacidad, no nos gusta.</h3>
+                <h3>¿Qué planes hay para aprovechar la</h3>
+                <h3>Inteligencia Artificial y su impacto</h3>
+                <h3>en el mercado laboral?</h3>
                 <br />
                 <br />
               </div>
